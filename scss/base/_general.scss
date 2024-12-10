@@ -1,0 +1,17 @@
+@use "../abstracts/placeholders" as p;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  @include p.sticky-footer;
+  margin: 0;
+}
+
+.site-main {
+  flex-grow: 1;
+}
+

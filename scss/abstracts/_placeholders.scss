@@ -1,0 +1,5 @@
+@mixin sticky-footer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
